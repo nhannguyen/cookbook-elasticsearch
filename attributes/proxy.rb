@@ -1,5 +1,3 @@
-include_attribute "elasticsearch::nginx"
-
 # Try to load data bag item 'elasticsearch/aws' ------------------
 #
 users = Chef::DataBagItem.load('elasticsearch', 'users')['users'] rescue []
